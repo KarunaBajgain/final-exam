@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Board Game Café</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#our-games">Our Games</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#game-duration">Game Duration Estimator</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">1
+    <h1>Welcome to Our Gaming Café</h1>
+    <h3> LET THE ADVENTURE BEGIN</h3>
+    
+  </header>
+<img src="c:\Users\Dell\Downloads\gaming caffee.jpg" alt="Codenames">
+  <section id="our-games" class="content-section">
+    <h2>Our Games</h2>
+    
+    <div class="game">
+      <h3>Game 1: Dungeon Quest</h3>
+      <p>An adventurous quest through dark dungeons. Suitable for 2-6 players. Recommended for ages 12 and up.</p>
+      <img src="c:\Users\Dell\Downloads\image1.jpg" alt="PLAYER">
+    </div>
+
+    <div class="game">
+      <h3>Game 2: Galactic Strategy</h3>
+      <p>Conquer galaxies and build your space empire. Best for 3-5 players. Suitable for ages 14 and above.</p>
+      <img src="c:\Users\Dell\Downloads\image2.jpg" alt="GAME">
+    </div>
+
+    <div class="game">
+      <h3>Game 3: Mystery Mansion</h3>
+      <p>Solve mysteries in a haunted mansion. Ideal for 4-8 players. Recommended for ages 10 and older.</p>
+      <img src="c:\Users\Dell\Downloads\pubg.jpg" alt="pubg">
+    </div>
+
+    <div class="game">
+      <h3>Game 4: Pixel Quest</h3>
+      <p>Embark on a pixelated adventure. Perfect for 2-4 players. Suitable for all ages.</p>
+      <img src="c:\Users\Dell\Downloads\people.jpg" alt="IMAGE">
+    </div>
+  </section>
+
+  <section id="menu" class="content-section">
+    <h2>Menu</h2>
+    <!-- Listing of food and beverages offered, emphasizing any special items or game-themed treats -->
+    <div class="menu-item">
+      <img src="c:\Users\Dell\Downloads\images (1).jpg" alt="food">
+
+      <h3>1. Critical Hit Combo</h3>
+      <p>A combination of buffalo wings and loaded potato skins. A perfect critical hit for your taste buds.</p>
+      <span>$12.99</span>
+    </div>
+
+    <div class="menu-item">
+      <h3>2. Meeple Munchies Platter</h3>
+      <p>A platter of finger foods including mozzarella sticks, onion rings, and jalapeño poppers. Share with your gaming party.</p>
+      <span>$14.99</span>
+    </div>
+
+    <div class="menu-item">
+      <h3>3. Potion of Energy</h3>
+      <p>Our special energy drink to keep you alert during intense gaming sessions. Choose your flavor.</p>
+      <span>$4.99</span>
+    </div>
+
+    <div class="menu-item">
+      <h3>4. Quest Complete Dessert</h3>
+      <p>A sweet treat to celebrate completing a gaming quest. Choose from our selection of desserts.</p>
+      <span>$8.99</span>
+    </div>
+  </section>
+
+
+<section id="contact-us">
+  <h2>Contact Us</h2>
+  <address>
+      <p>Board Game Café</p>
+      <p>Daehak -ro</p>
+      <p>namgu Ulsan</p>
+      <p>Email: info@boardgamecafe.com</p>
+      <p>Phone: +100000000</p>
+  </address>
+  <div id="contact-form">
+      <h3>Send us a Message</h3>
+      <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <button type="submit">Send Message</button>
+      </form>
+  </div>
+</section>
+
+
+
+<section id="game-duration-estimator">
+  <h2>Game Duration Estimator</h2>
+  <div id="game-list">
+      <label for="select-game">Select a Game:</label>
+      <select id="select-game" name="select-game">
+          
+          <option value="game1">Dungeon Quest</option>
+          <option value="game2"> Galactic Strategy</option>
+          <option value="game3"> Mystery Mansion</option>
+          <option value="game4">Pixel Quest </option>
+         
+         
+      </select>
+  </div>
+  <div id="players-input">
+      <label for="num-players">Number of Players:</label>
+      <input type="number" id="num-players" name="num-players" min="1" required>
+  </div>
+  <button id="calculate-duration">Calculate Duration</button>
+  <div id="result">
+      <p>Estimated Duration:</p>
+      <span id="estimated-duration">--</span>
+  </div>
+</section>
+
+<!-- ... (remaining HTML code) ... -->
+
+
+  <footer class="footer">
+    <p>Café Address | Opening Hours | Social Media Links</p>
+    <form action="#" method="post" class="email-subscription">
+      <label for="email">Subscribe to our newsletter:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

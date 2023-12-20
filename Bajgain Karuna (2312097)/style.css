@@ -1,0 +1,207 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  :root {
+    --peach: #FFCDB2;
+    --light-mint: #E8EDDF;
+    --muted-rose: #B5838D;
+  }
+  
+  /* General styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-mint);
+    color: #333; /* Default text color */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: var(--peach);
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333; /* Navbar text color */
+    font-weight: bold;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    padding: 80px 0;
+    background: url('<img src="c:\Users\Dell\Downloads\gaming caffee.jpg" alt="Codenames">') center/cover no-repeat; 
+    color: #fff; /* Hero text color */
+  }
+  
+  .hero h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  /* Our Games section styles */
+  #our-games {
+    padding: 80px 0;
+  }
+  
+  .game {
+    margin-bottom: 40px;
+  }
+  
+  .game img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .game h3 {
+    margin-top: 10px;
+    color: var(--muted-rose);
+  }
+  
+  /* Menu section styles */
+  #menu {
+    background-color: var(--light-mint);
+    padding: 80px 0;
+  }
+  
+  .menu-item {
+    margin-bottom: 40px;
+  }
+  
+  .menu-item h3 {
+    color: var(--muted-rose);
+  }
+  
+  .menu-item span {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Contact Us section styles */
+  #contact-us {
+    padding: 80px 0;
+  }
+  
+  #contact-form {
+    margin-top: 20px;
+  }
+  
+  #contact-form h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Game Duration Estimator section styles */
+  #game-duration-estimator {
+    background-color: var(--peach);
+    padding: 80px 0;
+  }
+  
+  #game-list,
+  #players-input,
+  #result {
+    margin-bottom: 20px;
+  }
+  
+  #calculate-duration {
+    background-color: var(--muted-rose);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #result p {
+    font-weight: bold;
+    color: var(--muted-rose);
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: var(--muted-rose);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .email-subscription {
+    margin-top: 20px;
+  }
+  
+  .email-subscription label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .email-subscription input {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .email-subscription button {
+    background-color: var(--peach);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero h3 {
+      font-size: 1.2em;
+    }
+  
+    .game img {
+      max-height: 200px;
+    }
+  }
+  
